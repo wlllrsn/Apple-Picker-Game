@@ -1,7 +1,9 @@
 '''
 
 Apple Picker! A game by Will Larson
-Current Version:
+Current Version: 2.2
+- added flashing animation
+- made sure the bad apples don't spawn right in front of you
 2.1.2
 - added some sounds
 2.1.1
@@ -29,7 +31,7 @@ HEIGHT = 160
 PLAYER_SPEED = 2
 pyxel.mouse(visible=True)
 intro = True
-version = "2.1.2"
+version = "2.2"
 
 class Player(object):
     def __init__(self, x, y):
