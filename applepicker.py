@@ -74,7 +74,7 @@ class App:
 
         # loading high score
         self.dir = path.dirname(__file__)
-        with open(path.join(self.dir, "applepickerhs"), 'r+') as f:
+        with open(path.join(self.dir, "applepickerhs"), 'r') as f:
             try:
                 self.highscore = int(f.read())
             except:
