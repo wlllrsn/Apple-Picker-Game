@@ -102,7 +102,7 @@ class App:
             if b in range(0,1):
                 bax = random.randint(2, WIDTH - 5)
                 bay = random.randint(10, HEIGHT - 6)
-                if m.sqrt((self.player.x - bax)**2 + (self.player.y - bay)**2 > 20):
+                if m.sqrt((self.player.x - bax)**2 + (self.player.y - bay)**2) > 40:
                     self.badapplelist.append(BadApple(bax, bay))
 
     def spawn_golden_apple(self):
