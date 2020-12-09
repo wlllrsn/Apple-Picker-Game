@@ -1,4 +1,7 @@
 # Apple-Picker-Game
+
+Note: This was created freshman year of college, before learning key object-oriented design principles. I would go about this project quite differently now. It's still fun, though!
+
 Goal: Get as high a score as possible by eating the apples.
 
 Eventually "bad apples" will spawn that reset your score upon being eaten.
